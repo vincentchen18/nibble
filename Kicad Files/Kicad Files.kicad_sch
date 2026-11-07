@@ -5,6 +5,994 @@
 	(uuid "725ec087-9da7-4d35-a9f5-5228a6e3b1e3")
 	(paper "A3")
 	(lib_symbols
+		(symbol "74xx:74HC00"
+			(body_styles demorgan)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC00"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "quad 2-input NAND gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCMOS nand 2-input"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC00_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_1_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_2_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_2_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_3_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_3_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_4_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_4_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_5_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC86"
 			(pin_names
 				(offset 1.016)
@@ -2891,6 +3879,471 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
+				(rectangle
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.27)
+					(end -6.35 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 6.35)
+					(mid -6.985 6.9823)
+					(end -6.35 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 6.35)
+					(mid -6.985 6.9823)
+					(end -6.35 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 6.35)
+					(mid -6.985 8.2467)
+					(end -5.08 6.35)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.27)
+					(mid -6.985 -3.1667)
+					(end -8.89 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -1.27)
+					(mid -6.985 -1.9023)
+					(end -7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -1.27)
+					(mid -6.985 -1.9023)
+					(end -7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 3.683)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 6.858)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.302)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 4.318)
+					(end 3.175 5.588)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -17.78 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3234,6 +4687,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3364,6 +5018,416 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Timer:NE555D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NE555D"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single timer 555"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NE555D_0_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE555D_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NE555D_1_1"
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "CONT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "THRES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DISCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3678,6 +5742,18 @@
 		(uuid "245f1e8f-d02a-4bb7-9030-5bb9a668659e")
 	)
 	(rectangle
+		(start 218.44 119.38)
+		(end 271.78 172.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "28dc2e56-ee3c-4b41-9ec9-3ff133316e4f")
+	)
+	(rectangle
 		(start 22.86 86.36)
 		(end 119.38 132.08)
 		(stroke
@@ -3714,6 +5790,30 @@
 		(uuid "5480bc71-e6bb-41bf-8a1a-764092c98260")
 	)
 	(rectangle
+		(start 237.49 227.33)
+		(end 285.75 281.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5e48e1a2-7419-4f5a-b16f-528f764249a3")
+	)
+	(rectangle
+		(start 207.01 232.41)
+		(end 233.68 260.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6e591381-2f0a-43b1-90cd-78e9b2993127")
+	)
+	(rectangle
 		(start 92.71 196.85)
 		(end 151.13 257.81)
 		(stroke
@@ -3726,6 +5826,18 @@
 		(uuid "75af8e69-e4a4-445c-aa14-2d07a0a19e8d")
 	)
 	(rectangle
+		(start 208.28 179.07)
+		(end 246.38 226.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "88a28cf1-150f-43fd-b972-7a7559f7fd20")
+	)
+	(rectangle
 		(start 74.93 24.13)
 		(end 120.65 55.88)
 		(stroke
@@ -3736,6 +5848,18 @@
 			(type none)
 		)
 		(uuid "9900679a-e264-4102-be9d-70ab1a91447e")
+	)
+	(rectangle
+		(start 158.75 233.68)
+		(end 200.66 257.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d27e84be-a351-4d45-82db-b51e6f6d7311")
 	)
 	(rectangle
 		(start 71.12 135.89)
@@ -3759,6 +5883,16 @@
 		)
 		(uuid "1a30623b-bd22-4259-8376-8c0ec99e7f5c")
 	)
+	(text "Jump logic\n"
+		(exclude_from_sim no)
+		(at 266.446 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dfe40ad-6d30-4e16-b9be-89e6a6ab068f")
+	)
 	(text "Binary Counter and Capacitor"
 		(exclude_from_sim no)
 		(at 55.372 20.828 0)
@@ -3769,6 +5903,16 @@
 		)
 		(uuid "1fe2a864-04be-4441-8a54-5694d52c5463")
 	)
+	(text "Reset\n"
+		(exclude_from_sim no)
+		(at 231.14 231.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28cc2fd4-6247-4f75-94db-8ad94a3fc36e")
+	)
 	(text "Diodes\n"
 		(exclude_from_sim no)
 		(at 256.032 22.098 0)
@@ -3778,6 +5922,16 @@
 			)
 		)
 		(uuid "2a1d14d4-4982-407b-af5c-d6a2eb567032")
+	)
+	(text "usb c thingy\n"
+		(exclude_from_sim no)
+		(at 279.4 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "316ca536-50ff-4e81-aef4-fc0190a266c5")
 	)
 	(text "Resistors\n"
 		(exclude_from_sim no)
@@ -3819,6 +5973,26 @@
 		)
 		(uuid "be1818e5-be14-4977-b392-e514062992bf")
 	)
+	(text "outputs\n"
+		(exclude_from_sim no)
+		(at 197.358 232.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc2e3a85-a7be-4304-b2b3-dc6f2808b513")
+	)
+	(text "clokc :)"
+		(exclude_from_sim no)
+		(at 243.078 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d09cefc5-fb1e-49c9-943d-1f8964df9eb5")
+	)
 	(text "Row Decoder"
 		(exclude_from_sim no)
 		(at 113.03 85.598 0)
@@ -3849,6 +6023,34 @@
 		)
 		(uuid "fda75254-31f0-4bdf-b80d-a0bd776bcc2a")
 	)
+	(junction
+		(at 215.9 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cf36793-eed9-494c-b3a0-92819f3c5c3a")
+	)
+	(junction
+		(at 210.82 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e5cbeb-eae8-45bc-90d4-134a3c13df09")
+	)
+	(junction
+		(at 218.44 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbc1e29-4575-4a3a-a762-ab3180101ba6")
+	)
+	(junction
+		(at 210.82 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbbc093-d873-41e4-a86a-f9037380d053")
+	)
+	(no_connect
+		(at 228.6 187.96)
+		(uuid "02392153-b8cc-4ff3-8bff-dd1007bb47d7")
+	)
 	(no_connect
 		(at 193.04 204.47)
 		(uuid "33f220c9-f04b-42be-9b18-9ce2e6e02553")
@@ -3864,6 +6066,10 @@
 	(no_connect
 		(at 193.04 149.86)
 		(uuid "77d70afd-de55-4f7b-b8b6-e4ce331af619")
+	)
+	(no_connect
+		(at 54.61 158.75)
+		(uuid "79b73d83-0240-492e-917b-985df967bc45")
 	)
 	(no_connect
 		(at 193.04 144.78)
@@ -3885,6 +6091,30 @@
 		(at 193.04 201.93)
 		(uuid "ec88bdbb-85f2-4a5b-93a3-8c9aa9f01247")
 	)
+	(no_connect
+		(at 54.61 156.21)
+		(uuid "fb847a7e-82f9-4b6f-a331-e8d583998135")
+	)
+	(wire
+		(pts
+			(xy 210.82 195.58) (xy 210.82 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191ec5a8-dbeb-487c-8c22-7c57fa87ad26")
+	)
+	(wire
+		(pts
+			(xy 218.44 201.93) (xy 218.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1009c0-fa4f-438b-885b-5e2ad2222d3b")
+	)
 	(wire
 		(pts
 			(xy 46.99 71.12) (xy 46.99 72.39)
@@ -3897,6 +6127,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 194.31) (xy 210.82 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e62f5e-1e7b-4d7c-b3ad-1e4f9d17ec2f")
+	)
+	(wire
+		(pts
+			(xy 213.36 201.93) (xy 213.36 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41df21ab-aba0-416a-856f-f307065dfc39")
+	)
+	(wire
+		(pts
 			(xy 46.99 27.94) (xy 46.99 30.48)
 		)
 		(stroke
@@ -3904,6 +6154,46 @@
 			(type default)
 		)
 		(uuid "53147dea-ae9a-4ba2-933c-ebb7585cf121")
+	)
+	(wire
+		(pts
+			(xy 218.44 201.93) (xy 213.36 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dd3e7f-5449-4c90-8853-16b5888a3210")
+	)
+	(wire
+		(pts
+			(xy 213.36 204.47) (xy 210.82 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d21ab79-f4e5-4b9c-9d70-b6b48d8193a2")
+	)
+	(wire
+		(pts
+			(xy 210.82 195.58) (xy 218.44 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b3eb75-da6f-4ba1-9e56-0c9c0df547c0")
+	)
+	(wire
+		(pts
+			(xy 218.44 200.66) (xy 218.44 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff722f59-b727-4a2e-a7c4-ff9adf0a4c47")
 	)
 	(label "OP0"
 		(at 128.27 59.69 0)
@@ -4134,6 +6424,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d8a0068-79c0-44be-8abf-8afc0405ff34")
+	)
+	(label "OUT1"
+		(at 171.45 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d8f0564-5d89-469d-b1d7-d0c297d3c7ff")
 	)
 	(label "OP0"
 		(at 57.15 237.49 0)
@@ -4785,16 +7085,6 @@
 		)
 		(uuid "3fd82fc1-a9d5-4098-9f36-563601a8f2ae")
 	)
-	(label "SUB_N"
-		(at 54.61 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "406a590f-4a89-4614-bce2-30ea02a91aff")
-	)
 	(label "OP0"
 		(at 106.68 173.99 180)
 		(effects
@@ -4884,6 +7174,16 @@
 			(justify left bottom)
 		)
 		(uuid "455a3e7c-7d5f-4daa-9db5-5a3525114c01")
+	)
+	(label "C"
+		(at 246.38 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46acf9e6-c125-4282-8e78-c41e89c1c697")
 	)
 	(label "ROW10"
 		(at 232.41 55.88 0)
@@ -5005,6 +7305,16 @@
 		)
 		(uuid "50ecdfcb-1393-406c-b513-5381e0c06f17")
 	)
+	(label "JMP_N"
+		(at 262.89 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f33618-bccf-4bce-b36d-d24099427e9e")
+	)
 	(label "ROW3"
 		(at 137.16 67.31 0)
 		(effects
@@ -5094,16 +7404,6 @@
 			(justify left top)
 		)
 		(uuid "56bd12a2-1c0f-4bac-a995-2aa743f81118")
-	)
-	(label "ADD_N"
-		(at 54.61 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "570feeac-0b89-4720-a1f3-e61ac233757d")
 	)
 	(label "N1"
 		(at 232.41 59.69 0)
@@ -5295,6 +7595,16 @@
 		)
 		(uuid "6745f11e-0049-444a-a969-591848a20eb6")
 	)
+	(label "RESET_N"
+		(at 34.29 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67a02a97-292a-4839-aaa2-2459ad273dfe")
+	)
 	(label "OP0"
 		(at 196.85 25.4 0)
 		(effects
@@ -5425,6 +7735,16 @@
 		)
 		(uuid "70bcf30a-7bbe-4f0b-b761-d94ebca18ca8")
 	)
+	(label "OUT0"
+		(at 161.29 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71b2fd00-421e-4e6c-a5fa-d5c3e51c0010")
+	)
 	(label "OP2"
 		(at 146.05 71.12 0)
 		(effects
@@ -5454,6 +7774,16 @@
 			(justify right bottom)
 		)
 		(uuid "73abfeeb-fac2-4e8d-8576-fcad2b386745")
+	)
+	(label "HLT_N"
+		(at 218.44 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7452a78d-8ca5-4d1b-b296-cb072a949b92")
 	)
 	(label "OP1"
 		(at 205.74 25.4 0)
@@ -5685,6 +8015,16 @@
 		)
 		(uuid "8507ea70-6eb3-4fd0-a799-d1006b90c13d")
 	)
+	(label "OUT3"
+		(at 191.77 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85469755-f847-4d41-9ff9-f9a28431d183")
+	)
 	(label "N1"
 		(at 163.83 93.98 0)
 		(effects
@@ -5824,6 +8164,26 @@
 			(justify left top)
 		)
 		(uuid "8b612f03-8571-46f8-9da2-3a1cef103349")
+	)
+	(label "JC_N"
+		(at 227.33 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c16b641-2aed-4960-8c15-4dee951b9f27")
+	)
+	(label "JC"
+		(at 242.57 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c1ae350-23a8-48f3-b957-64c935e5188a")
 	)
 	(label "ROW7"
 		(at 137.16 113.03 0)
@@ -5974,6 +8334,16 @@
 			(justify left bottom)
 		)
 		(uuid "9375c997-ddbc-4c8b-95d6-32bbb92e9f2e")
+	)
+	(label "JX"
+		(at 247.65 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93e55787-f4d4-4ece-88c2-6edeb7fe1255")
 	)
 	(label "ROW6"
 		(at 137.16 101.6 0)
@@ -6175,6 +8545,16 @@
 		)
 		(uuid "a38bfb51-55ba-46f9-b0cb-63b9f8c88f56")
 	)
+	(label "JP_N"
+		(at 227.33 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a38eebcb-2d08-46ed-8235-397d92ab523a")
+	)
 	(label "N1"
 		(at 102.87 218.44 180)
 		(effects
@@ -6194,6 +8574,16 @@
 			(justify left bottom)
 		)
 		(uuid "a6086005-34d5-444a-8d15-5dd68b231ef8")
+	)
+	(label "JX"
+		(at 242.57 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8ae0fc3-ffe9-4a7f-a5e8-8804282e5724")
 	)
 	(label "OP1"
 		(at 205.74 59.69 0)
@@ -6314,6 +8704,16 @@
 			(justify left top)
 		)
 		(uuid "adb4d5a8-64ae-4e9b-9d17-a97331e5a4b4")
+	)
+	(label "JT_N"
+		(at 227.33 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "add44597-6866-442a-bf09-e5dee0e596f0")
 	)
 	(label "PC2"
 		(at 74.93 105.41 180)
@@ -6494,6 +8894,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8f22d2a-486e-488d-bfce-9eabaae9b5f3")
+	)
+	(label "JX"
+		(at 247.65 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba59a1bf-06f3-4e1a-b56e-fe4c3321cf7f")
 	)
 	(label "ROW11"
 		(at 214.63 67.31 0)
@@ -6705,6 +9115,16 @@
 		)
 		(uuid "ccfeb731-b211-41e8-b60d-a230d3d83b57")
 	)
+	(label "RESET_N"
+		(at 215.9 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfa62f29-e620-4f30-986e-bc0d509133e6")
+	)
 	(label "OP0"
 		(at 128.27 93.98 0)
 		(effects
@@ -6754,6 +9174,16 @@
 			(justify left top)
 		)
 		(uuid "d43bbe46-16e4-4a1e-96ca-df7ec870fc62")
+	)
+	(label "CLK"
+		(at 238.76 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4fd0e36-7277-4173-ab66-6fd965c0fdea")
 	)
 	(label "PC3"
 		(at 31.75 118.11 180)
@@ -6945,6 +9375,16 @@
 		)
 		(uuid "e6222b4d-6bb3-4c9f-811b-261038875c82")
 	)
+	(label "JC"
+		(at 246.38 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6345c86-f970-4131-8b95-2adc61fbb936")
+	)
 	(label "OP1"
 		(at 137.16 93.98 0)
 		(effects
@@ -7054,6 +9494,16 @@
 			(justify left top)
 		)
 		(uuid "eeaf141d-fb5f-42a6-95c7-46b45651662d")
+	)
+	(label "JC_N"
+		(at 227.33 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0edce5a-51d8-4d63-bc92-b75a9318eae8")
 	)
 	(label "ROW6"
 		(at 57.15 115.57 0)
@@ -7235,6 +9685,16 @@
 		)
 		(uuid "fc49c077-bca4-4f99-ae5a-9eb1c849a534")
 	)
+	(label "JT_N"
+		(at 261.62 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc9cfbd4-db89-4c77-bd5b-2f7c9b35879f")
+	)
 	(label "COUT"
 		(at 167.64 142.24 180)
 		(effects
@@ -7264,6 +9724,16 @@
 			(justify left top)
 		)
 		(uuid "ff8cf1af-0db7-45fd-af2e-940266fddc58")
+	)
+	(label "OUT2"
+		(at 181.61 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffd4745f-fc59-4943-8d66-473880d9bc2f")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -7377,7 +9847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7481,7 +9951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -7767,6 +10237,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061a377e-a848-4ece-8c66-0da6660dd58c")
+		(property "Reference" "#PWR067"
+			(at 261.62 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd126e9-cbd4-46c1-ab55-491c2a0893eb")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "094ec640-e51d-42b2-a3fd-2301d25760b5")
+		(property "Reference" "#PWR080"
+			(at 246.38 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87da957f-ad25-4c7b-b0cd-d476bac23ec6")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 180.34 124.46 0)
 		(unit 1)
@@ -7878,7 +10504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +10608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8131,6 +10757,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 220.98 246.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eb4bcc6-e037-45ba-b4eb-c954d05af601")
+		(property "Reference" "SW1"
+			(at 220.98 252.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 220.98 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 220.98 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b96d9d1b-a9c3-4bc2-bd7f-46ec8f7bb9bb")
+		)
+		(pin "2"
+			(uuid "bb2ab239-bd57-4b64-b1a5-91ffb3b106e2")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 219.71 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11014477-fc6c-400b-8728-15de62273246")
+		(property "Reference" "#PWR070"
+			(at 219.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 219.71 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 219.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baf6ba76-4c8f-4cae-856d-03202366dc7e")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 232.41 86.36 90)
 		(unit 1)
@@ -8164,7 +10947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8268,7 +11051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8372,7 +11155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +11575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.5348 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8919,6 +11702,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 273.05 254 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a33abd0-ac65-4094-8d11-bc8421e105bd")
+		(property "Reference" "R16"
+			(at 273.05 256.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 273.05 259.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.05 255.778 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bc450c5-c7a5-4a7a-8a6b-c7895e015889")
+		)
+		(pin "1"
+			(uuid "1c720233-db71-4cb7-89cb-5db00864609b")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 214.63 109.22 90)
 		(unit 1)
@@ -8952,7 +11814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9134,7 +11996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9439,6 +12301,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dd048a3-17ff-441b-8258-3149dab8d89e")
+		(property "Reference" "#PWR064"
+			(at 181.61 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b0b7c45-34eb-4d50-982d-6cfa205b39d8")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 137.16 40.64 90)
 		(unit 1)
@@ -9472,7 +12412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9576,7 +12516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.232 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -9658,7 +12598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 81.28 183.8452 0)
 			(hide yes)
 			(show_name no)
@@ -9740,7 +12680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +12784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9915,6 +12855,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25477ce3-687d-4bcd-b543-d89ef13a1c0e")
+		(property "Reference" "#PWR065"
+			(at 191.77 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb5f557-a235-4477-a39d-4a5eed1f2c85")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 261.62 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f572c2-10af-46d3-ab54-61fce8f9670b")
+		(property "Reference" "C10"
+			(at 265.43 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 265.43 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 262.5852 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6136c501-de9d-41c1-8f13-70f5bb1d4ea1")
+		)
+		(pin "2"
+			(uuid "3b2226fd-9cf2-46bf-b424-7132f1f5335c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 181.61 40.64 90)
 		(unit 1)
@@ -9948,7 +13048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10176,6 +13276,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c51f873-d947-4d0a-9247-ce3cbfd73d5f")
+		(property "Reference" "R8"
+			(at 163.83 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.83 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.512 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48bd350c-1d13-4db8-8865-7db6c0998488")
+		)
+		(pin "2"
+			(uuid "64e09755-0198-4a0a-9212-31b4f7851a66")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 196.85 86.36 90)
 		(unit 1)
@@ -10209,7 +13391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +13495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10384,85 +13566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 34.29 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f31d3d5-3c66-483e-83ad-1ffe8eaa1be9")
-		(property "Reference" "#PWR05"
-			(at 38.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 30.48 63.4999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 34.29 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd9a339d-c7da-4b26-be6b-7da461ec10b6")
-		)
-		(instances
-			(project "Kicad Files"
-				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 58.42 66.04 0)
 		(unit 1)
@@ -10496,7 +13599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +13681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10649,6 +13752,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c6b2fc-1b28-4c85-b3a4-e1c1e46c1b4c")
+		(property "Reference" "#PWR075"
+			(at 210.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17d8d212-b4af-4390-9db1-3434c7be4033")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 128.27 74.93 90)
 		(unit 1)
@@ -10682,7 +13863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10786,7 +13967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10888,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 114.3 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11006,7 +14187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11077,6 +14258,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 219.71 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38980f3a-9658-4c60-b191-2e5737b63ad6")
+		(property "Reference" "C11"
+			(at 223.52 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 223.52 217.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 220.6752 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85dbfc4f-1bdf-45e9-8855-42d8b5e137fa")
+		)
+		(pin "2"
+			(uuid "3671d5e2-895b-4158-ba57-c3f5d0f1c96d")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 232.41 97.79 90)
 		(unit 1)
@@ -11110,7 +14373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11175,6 +14438,84 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 231.14 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "392bd156-02ca-4fa1-99f7-a45ce8a4d301")
+		(property "Reference" "#PWR072"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 231.14 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 231.14 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af59f920-b1ac-45bb-965d-1a0f61552eba")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11292,7 +14633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11396,7 +14737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11467,6 +14808,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 276.86 254 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d6a781d-0f42-4d99-a341-aa52bdb5a6d6")
+		(property "Reference" "#PWR082"
+			(at 283.21 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 253.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9963e754-015c-4bf4-9524-c73d19e0b6b8")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 154.94 86.36 90)
 		(unit 1)
@@ -11500,7 +14920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11604,7 +15024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11786,7 +15206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11890,7 +15310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11994,7 +15414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12043,6 +15463,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44f78a2c-97b0-4325-9669-aea6273d2765")
+		(property "Reference" "#PWR076"
+			(at 232.41 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 246.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7b86939-0705-40d8-9822-c9f4298a4dd6")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 205.74 52.07 90)
 		(unit 1)
@@ -12076,7 +15575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +15679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12284,7 +15783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12388,7 +15887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12492,7 +15991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12596,7 +16095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12667,6 +16166,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
+		(at 254 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5d50da-c37e-485c-83c0-9b56a3701ae4")
+		(property "Reference" "J1"
+			(at 254 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+			(at 254 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
+			(at 257.81 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 254 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 254 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B9"
+			(uuid "b2f95c82-4f49-447d-8b11-83f7a61b1adc")
+		)
+		(pin "B12"
+			(uuid "efd8835f-565c-4754-b2fc-80851de39163")
+		)
+		(pin "SH"
+			(uuid "76165cee-7703-4be7-a89b-8d82f7027136")
+		)
+		(pin "B5"
+			(uuid "7da26bce-4cce-4660-b940-59326202822d")
+		)
+		(pin "A12"
+			(uuid "5bc7a8d3-538a-4ca7-87ca-fa2566d92c5a")
+		)
+		(pin "A9"
+			(uuid "7e58b966-d84f-4dfd-9277-4fcbad1c70a5")
+		)
+		(pin "A5"
+			(uuid "c6e10753-a131-47f7-a199-a6e2474d1448")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS377")
 		(at 180.34 144.78 0)
 		(unit 1)
@@ -12700,7 +16294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 180.34 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12797,6 +16391,84 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 210.82 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d4b8366-b7bd-4122-b3d8-487a236e6441")
+		(property "Reference" "#PWR074"
+			(at 210.82 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 210.82 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 210.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92c457d-beed-41f1-b698-a2eeea4cf325")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -12914,7 +16586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13018,7 +16690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13122,7 +16794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13304,7 +16976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13375,6 +17047,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 210.82 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f2c2c4-3a25-4b8a-b72d-9d037d675fd5")
+		(property "Reference" "C12"
+			(at 214.63 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 214.63 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 211.7852 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d7334b8-77ed-44cf-9923-9c937665eff7")
+		)
+		(pin "2"
+			(uuid "a87a6525-041b-468b-8b58-d6d83c6ddf06")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 196.85 52.07 90)
 		(unit 1)
@@ -13408,7 +17162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13512,7 +17266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13583,6 +17337,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 215.9 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "556d6499-19eb-4747-b60c-80e01b03b62f")
+		(property "Reference" "C13"
+			(at 208.28 249.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 208.28 251.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 216.8652 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67c5b56b-899f-4fec-9195-af508ca4853b")
+		)
+		(pin "2"
+			(uuid "cf645336-b7c5-4848-b577-b60b13e2889e")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 250.19 52.07 90)
 		(unit 1)
@@ -13616,7 +17451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13681,6 +17516,85 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 269.24 238.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c74ad2-42ce-4eb8-b247-d632a469daae")
+		(property "Reference" "#PWR078"
+			(at 265.43 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 273.05 238.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 269.24 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04f7fd23-ce02-4cbb-9d81-281dcbc13227")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -13798,7 +17712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13980,7 +17894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14084,7 +17998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14188,7 +18102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -14394,6 +18308,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 191.77 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62407323-07cf-4532-a1fa-08ecddc77a1a")
+		(property "Reference" "R11"
+			(at 194.31 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 194.31 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.992 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ab636bd-9b6b-4794-9844-888669654baa")
+		)
+		(pin "2"
+			(uuid "bc7477a9-9196-4da6-85fe-04f28d31e7f9")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 154.94 40.64 90)
 		(unit 1)
@@ -14427,7 +18423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14687,7 +18683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 44.45 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -14811,7 +18807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14915,7 +18911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15019,7 +19015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15123,7 +19119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 44.45 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15247,7 +19243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15351,7 +19347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15455,7 +19451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15682,6 +19678,220 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 238.76 166.37 90)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72fd7865-81af-4fe9-b996-bdca7e1e7a06")
+		(property "Reference" "U10"
+			(at 238.76 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 238.76 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 238.76 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 238.76 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 238.76 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f3d63578-2717-4c97-9eac-f4181d25b3c0")
+		)
+		(pin "6"
+			(uuid "007a4855-0375-4380-8747-54fbd9ed3a4f")
+		)
+		(pin "4"
+			(uuid "b717f1c4-c12a-4771-9d9f-e929c24bbb6a")
+		)
+		(pin "8"
+			(uuid "a5d4b3e5-8157-4f70-9601-a3e5db3cb2c8")
+		)
+		(pin "14"
+			(uuid "c6caab48-7968-4cfa-b51f-645d5835df8e")
+		)
+		(pin "7"
+			(uuid "f809dde8-e885-4e59-a835-182ccfb17c69")
+		)
+		(pin "10"
+			(uuid "b8903dcb-f531-414e-af4f-9ca602605ec7")
+		)
+		(pin "9"
+			(uuid "6b04fcd3-5b17-415d-8699-f96afbe6e37c")
+		)
+		(pin "11"
+			(uuid "d5865956-2e64-4eaa-8856-5d20c702916a")
+		)
+		(pin "5"
+			(uuid "17115342-e8f7-4fed-95c1-b90cbb62d156")
+		)
+		(pin "12"
+			(uuid "225d6995-1a25-4ce2-8fe2-744e1d57949d")
+		)
+		(pin "3"
+			(uuid "e017f3dd-6dbb-4ad3-a17c-ac1006fb2c3e")
+		)
+		(pin "2"
+			(uuid "6dcdf3c3-636b-4118-a7f2-2d746bdea727")
+		)
+		(pin "1"
+			(uuid "bbf33a23-8cdd-4960-8048-15808d9edf56")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U10")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timer:NE555D")
+		(at 228.6 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7300db25-8778-4bcd-9e0c-4a63370340ad")
+		(property "Reference" "U11"
+			(at 241.3 191.6998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE555D"
+			(at 241.3 194.2398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 228.6 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+			(at 228.6 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0b47168e-ec3f-48eb-aeb7-9833ba455bf0")
+		)
+		(pin "5"
+			(uuid "166286f8-ee2b-4c8f-be3e-5350fed76d95")
+		)
+		(pin "8"
+			(uuid "48f52c0d-af8e-4e54-be8d-db8cad3fba22")
+		)
+		(pin "4"
+			(uuid "8a40df2b-707d-45fe-b0f6-c14615708735")
+		)
+		(pin "7"
+			(uuid "f12b1b10-9f98-41d9-a840-ca5668114af8")
+		)
+		(pin "6"
+			(uuid "fc94aa00-6173-47a7-8bd8-9ff11da43929")
+		)
+		(pin "1"
+			(uuid "46beddc7-2bf6-4879-b1e2-aa81ed1c5574")
+		)
+		(pin "2"
+			(uuid "dc450777-95fd-4ec9-87ce-5204d22107bc")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 143.51 0)
 		(unit 1)
@@ -15793,7 +20003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15897,7 +20107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16001,7 +20211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16151,6 +20361,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 228.6 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7daf9161-3a1d-4c2b-a5d3-a140e541f964")
+		(property "Reference" "#PWR073"
+			(at 228.6 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81e7d89d-559d-4f8a-8f96-32ea6b02e2a2")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 44.45 204.47 180)
 		(unit 1)
 		(body_style 1)
@@ -16228,6 +20516,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e2ed1ba-8f40-4f7f-80c5-3cbbf4eaa85f")
+		(property "Reference" "#PWR071"
+			(at 219.71 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e0d17a6-aa60-4e4c-b3bb-88bf3da8f9c7")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC86")
 		(at 87.63 148.59 0)
 		(unit 1)
@@ -16259,7 +20625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16293,51 +20659,167 @@
 			)
 		)
 		(pin "13"
-			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e844")
+			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e845")
 		)
 		(pin "12"
-			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab2")
+			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab3")
 		)
 		(pin "1"
-			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5920")
+			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5921")
 		)
 		(pin "14"
-			(uuid "9603b61f-7edd-42c0-a579-567ed8c00693")
+			(uuid "9603b61f-7edd-42c0-a579-567ed8c00694")
 		)
 		(pin "8"
-			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486b")
+			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486c")
 		)
 		(pin "10"
-			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ede")
+			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2edf")
 		)
 		(pin "6"
-			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a7")
+			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a8")
 		)
 		(pin "5"
-			(uuid "19f8c918-3e21-4539-9b20-89912998fd1b")
+			(uuid "19f8c918-3e21-4539-9b20-89912998fd1c")
 		)
 		(pin "4"
-			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e0")
+			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e1")
 		)
 		(pin "3"
-			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa1")
+			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa2")
 		)
 		(pin "9"
-			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88c")
+			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88d")
 		)
 		(pin "7"
-			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733b")
+			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733c")
 		)
 		(pin "11"
-			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8d")
+			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8e")
 		)
 		(pin "2"
-			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39bf")
+			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39c0")
 		)
 		(instances
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 234.95 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f926ae2-fa63-47df-bc99-693c7f6c7a0c")
+		(property "Reference" "U10"
+			(at 234.9417 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 234.9417 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 234.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 234.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 234.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f3d63578-2717-4c97-9eac-f4181d25b3c0")
+		)
+		(pin "6"
+			(uuid "007a4855-0375-4380-8747-54fbd9ed3a4f")
+		)
+		(pin "4"
+			(uuid "b717f1c4-c12a-4771-9d9f-e929c24bbb6a")
+		)
+		(pin "8"
+			(uuid "a5d4b3e5-8157-4f70-9601-a3e5db3cb2c8")
+		)
+		(pin "14"
+			(uuid "c6caab48-7968-4cfa-b51f-645d5835df8e")
+		)
+		(pin "7"
+			(uuid "f809dde8-e885-4e59-a835-182ccfb17c69")
+		)
+		(pin "10"
+			(uuid "b8903dcb-f531-414e-af4f-9ca602605ec7")
+		)
+		(pin "9"
+			(uuid "6b04fcd3-5b17-415d-8699-f96afbe6e37c")
+		)
+		(pin "11"
+			(uuid "d5865956-2e64-4eaa-8856-5d20c702916a")
+		)
+		(pin "5"
+			(uuid "17115342-e8f7-4fed-95c1-b90cbb62d156")
+		)
+		(pin "12"
+			(uuid "225d6995-1a25-4ce2-8fe2-744e1d57949d")
+		)
+		(pin "3"
+			(uuid "e017f3dd-6dbb-4ad3-a17c-ac1006fb2c3e")
+		)
+		(pin "2"
+			(uuid "6dcdf3c3-636b-4118-a7f2-2d746bdea727")
+		)
+		(pin "1"
+			(uuid "bbf33a23-8cdd-4960-8048-15808d9edf56")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -16377,7 +20859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16559,7 +21041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16630,6 +21112,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 254 130.81 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ab73e2-8a2b-4f68-aeb3-b682637378ea")
+		(property "Reference" "U10"
+			(at 253.9917 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 253.9917 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f3d63578-2717-4c97-9eac-f4181d25b3c0")
+		)
+		(pin "6"
+			(uuid "007a4855-0375-4380-8747-54fbd9ed3a4f")
+		)
+		(pin "4"
+			(uuid "b717f1c4-c12a-4771-9d9f-e929c24bbb6a")
+		)
+		(pin "8"
+			(uuid "a5d4b3e5-8157-4f70-9601-a3e5db3cb2c8")
+		)
+		(pin "14"
+			(uuid "c6caab48-7968-4cfa-b51f-645d5835df8e")
+		)
+		(pin "7"
+			(uuid "f809dde8-e885-4e59-a835-182ccfb17c69")
+		)
+		(pin "10"
+			(uuid "b8903dcb-f531-414e-af4f-9ca602605ec7")
+		)
+		(pin "9"
+			(uuid "6b04fcd3-5b17-415d-8699-f96afbe6e37c")
+		)
+		(pin "11"
+			(uuid "d5865956-2e64-4eaa-8856-5d20c702916a")
+		)
+		(pin "5"
+			(uuid "17115342-e8f7-4fed-95c1-b90cbb62d156")
+		)
+		(pin "12"
+			(uuid "225d6995-1a25-4ce2-8fe2-744e1d57949d")
+		)
+		(pin "3"
+			(uuid "e017f3dd-6dbb-4ad3-a17c-ac1006fb2c3e")
+		)
+		(pin "2"
+			(uuid "6dcdf3c3-636b-4118-a7f2-2d746bdea727")
+		)
+		(pin "1"
+			(uuid "bbf33a23-8cdd-4960-8048-15808d9edf56")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 205.74 29.21 90)
 		(unit 1)
@@ -16663,7 +21261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -16728,6 +21326,162 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8280b8ad-63ec-46e4-b3ca-a90b9a1afe88")
+		(property "Reference" "#PWR077"
+			(at 215.9 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e32cd17-fda0-443e-a110-db851842ef46")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 261.62 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82adc769-b53d-456f-bda4-14b9a99c2456")
+		(property "Reference" "#PWR066"
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 261.62 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 261.62 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3321f75a-aca9-48cd-8777-864f5cb0e9aa")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -16845,7 +21599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17027,7 +21781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17131,7 +21885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17235,7 +21989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17339,7 +22093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17521,7 +22275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17625,7 +22379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.8152 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -17753,6 +22507,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 255.27 147.32 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9122a0fd-c6a5-4413-8c59-1ecd34259735")
+		(property "Reference" "U10"
+			(at 255.2617 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 255.2617 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f3d63578-2717-4c97-9eac-f4181d25b3c0")
+		)
+		(pin "6"
+			(uuid "007a4855-0375-4380-8747-54fbd9ed3a4f")
+		)
+		(pin "4"
+			(uuid "b717f1c4-c12a-4771-9d9f-e929c24bbb6a")
+		)
+		(pin "8"
+			(uuid "a5d4b3e5-8157-4f70-9601-a3e5db3cb2c8")
+		)
+		(pin "14"
+			(uuid "c6caab48-7968-4cfa-b51f-645d5835df8e")
+		)
+		(pin "7"
+			(uuid "f809dde8-e885-4e59-a835-182ccfb17c69")
+		)
+		(pin "10"
+			(uuid "b8903dcb-f531-414e-af4f-9ca602605ec7")
+		)
+		(pin "9"
+			(uuid "6b04fcd3-5b17-415d-8699-f96afbe6e37c")
+		)
+		(pin "11"
+			(uuid "d5865956-2e64-4eaa-8856-5d20c702916a")
+		)
+		(pin "5"
+			(uuid "17115342-e8f7-4fed-95c1-b90cbb62d156")
+		)
+		(pin "12"
+			(uuid "225d6995-1a25-4ce2-8fe2-744e1d57949d")
+		)
+		(pin "3"
+			(uuid "e017f3dd-6dbb-4ad3-a17c-ac1006fb2c3e")
+		)
+		(pin "2"
+			(uuid "6dcdf3c3-636b-4118-a7f2-2d746bdea727")
+		)
+		(pin "1"
+			(uuid "bbf33a23-8cdd-4960-8048-15808d9edf56")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U10")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 196.85 40.64 90)
 		(unit 1)
@@ -17786,7 +22656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17890,7 +22760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.232 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -17972,7 +22842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18076,7 +22946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18180,7 +23050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18284,7 +23154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -18333,6 +23203,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977792f0-e1c0-49d9-81eb-6d600af613eb")
+		(property "Reference" "D114"
+			(at 175.26 247.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 175.26 250.5074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 171.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c60d8a11-6b0a-47bc-a886-d6f083bf45f7")
+		)
+		(pin "1"
+			(uuid "ce37f35a-53ef-4095-adad-29e5ed7cb436")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 223.52 109.22 90)
 		(unit 1)
@@ -18366,7 +23329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18437,6 +23400,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 210.82 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99fe1f16-c8a4-44b9-b99c-0449b3d906fc")
+		(property "Reference" "R12"
+			(at 212.852 186.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.042 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af1077b1-87ed-4685-b789-71d2b29b8941")
+		)
+		(pin "1"
+			(uuid "eebd4829-6599-4218-aab5-c8fd15646f5c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a329dc1-977a-4eb2-a50e-82e11df9148d")
+		(property "Reference" "D115"
+			(at 185.42 247.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 185.42 250.5074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 181.61 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "183f29bd-4c46-467e-b9d7-7b78e2a95faa")
+		)
+		(pin "1"
+			(uuid "9e0e0f17-5f7e-47d2-a4ff-bbb19d389f1c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 250.19 109.22 90)
 		(unit 1)
@@ -18470,7 +23607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18574,7 +23711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18678,7 +23815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18743,6 +23880,84 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec0d1c5-dd7f-4824-9cf7-4103fbe27814")
+		(property "Reference" "#PWR063"
+			(at 171.45 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8b71754-f3dd-49a0-b415-59c1e356ed63")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -18860,7 +24075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19042,7 +24257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19225,7 +24440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -19307,7 +24522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19411,7 +24626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19515,7 +24730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19580,6 +24795,85 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 251.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a788235a-71af-44ca-b63f-a482b665e3ca")
+		(property "Reference" "#PWR081"
+			(at 283.21 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 251.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5b0876f-56a6-4bcd-a24d-f9e487ae74fa")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -19697,7 +24991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -19858,7 +25152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19962,7 +25256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20033,6 +25327,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 181.61 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0d9e10-8a11-4135-971a-c546ed2a2dbc")
+		(property "Reference" "R10"
+			(at 184.15 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 184.15 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f442e73-d4c1-4de5-9cd4-499ff292fb22")
+		)
+		(pin "2"
+			(uuid "44e35034-8bf0-405f-8a29-599a164eebde")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 154.94 74.93 90)
 		(unit 1)
@@ -20066,7 +25442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20170,7 +25546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20509,7 +25885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -20580,6 +25956,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b55fe356-30dc-4ba6-8252-0e2f1dec2015")
+		(property "Reference" "D113"
+			(at 165.1 247.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 165.1 250.5074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 161.29 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ecf1503-a0d4-4450-b3de-7ed102230573")
+		)
+		(pin "1"
+			(uuid "0c056787-bc40-4d42-a20d-56abb7115878")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 241.3 109.22 90)
 		(unit 1)
@@ -20613,7 +26082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -20717,7 +26186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -20821,7 +26290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -20870,6 +26339,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 215.9 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d1ad9e-fccd-4341-9611-861cd5375cce")
+		(property "Reference" "#PWR05"
+			(at 215.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.9 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 215.9 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a76f682-6d5c-4feb-97d1-af12a852326a")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 181.61 74.93 90)
 		(unit 1)
@@ -20903,7 +26450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -21007,7 +26554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -21156,6 +26703,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 234.95 147.32 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31a99c8-8452-4fd5-8583-42b942ea64f3")
+		(property "Reference" "U10"
+			(at 234.9417 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 234.9417 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 234.95 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 234.95 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 234.95 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f3d63578-2717-4c97-9eac-f4181d25b3c0")
+		)
+		(pin "6"
+			(uuid "007a4855-0375-4380-8747-54fbd9ed3a4f")
+		)
+		(pin "4"
+			(uuid "b717f1c4-c12a-4771-9d9f-e929c24bbb6a")
+		)
+		(pin "8"
+			(uuid "a5d4b3e5-8157-4f70-9601-a3e5db3cb2c8")
+		)
+		(pin "14"
+			(uuid "c6caab48-7968-4cfa-b51f-645d5835df8e")
+		)
+		(pin "7"
+			(uuid "f809dde8-e885-4e59-a835-182ccfb17c69")
+		)
+		(pin "10"
+			(uuid "b8903dcb-f531-414e-af4f-9ca602605ec7")
+		)
+		(pin "9"
+			(uuid "6b04fcd3-5b17-415d-8699-f96afbe6e37c")
+		)
+		(pin "11"
+			(uuid "d5865956-2e64-4eaa-8856-5d20c702916a")
+		)
+		(pin "5"
+			(uuid "17115342-e8f7-4fed-95c1-b90cbb62d156")
+		)
+		(pin "12"
+			(uuid "225d6995-1a25-4ce2-8fe2-744e1d57949d")
+		)
+		(pin "3"
+			(uuid "e017f3dd-6dbb-4ad3-a17c-ac1006fb2c3e")
+		)
+		(pin "2"
+			(uuid "6dcdf3c3-636b-4118-a7f2-2d746bdea727")
+		)
+		(pin "1"
+			(uuid "bbf33a23-8cdd-4960-8048-15808d9edf56")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 241.3 63.5 90)
 		(unit 1)
@@ -21189,7 +26852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21495,6 +27158,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f8c288-3e48-4cf2-840d-48ddba7ecc3f")
+		(property "Reference" "R9"
+			(at 173.99 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 173.99 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.672 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54fefc1b-14bf-49aa-95d4-4c8eaad7f1ed")
+		)
+		(pin "2"
+			(uuid "249deaa2-1af8-4e94-bb37-64256611f83c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 214.63 29.21 90)
 		(unit 1)
@@ -21528,7 +27273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21632,7 +27377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21703,6 +27448,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62d1e92-07e0-4923-bbcf-66f7e6c33de7")
+		(property "Reference" "#PWR069"
+			(at 257.81 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c977c966-b4e6-4502-a2cf-6e43436dab84")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS138")
 		(at 87.63 107.95 0)
 		(unit 1)
@@ -21736,7 +27560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21858,7 +27682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 86.36 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21892,52 +27716,212 @@
 			)
 		)
 		(pin "13"
-			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e844")
+			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e846")
 		)
 		(pin "12"
-			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab2")
+			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab4")
 		)
 		(pin "1"
-			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5920")
+			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5922")
 		)
 		(pin "14"
-			(uuid "9603b61f-7edd-42c0-a579-567ed8c00693")
+			(uuid "9603b61f-7edd-42c0-a579-567ed8c00695")
 		)
 		(pin "8"
-			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486b")
+			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486d")
 		)
 		(pin "10"
-			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ede")
+			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ee0")
 		)
 		(pin "6"
-			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a7")
+			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a9")
 		)
 		(pin "5"
-			(uuid "19f8c918-3e21-4539-9b20-89912998fd1b")
+			(uuid "19f8c918-3e21-4539-9b20-89912998fd1d")
 		)
 		(pin "4"
-			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e0")
+			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e2")
 		)
 		(pin "3"
-			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa1")
+			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa3")
 		)
 		(pin "9"
-			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88c")
+			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88e")
 		)
 		(pin "7"
-			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733b")
+			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733d")
 		)
 		(pin "11"
-			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8d")
+			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8f")
 		)
 		(pin "2"
-			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39bf")
+			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39c1")
 		)
 		(instances
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 275.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca42f533-d7d8-4937-9caa-00ca3eb46040")
+		(property "Reference" "#PWR084"
+			(at 266.7 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb7e5be6-3408-47e9-9876-54d76ef57130")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8e7355-bc5c-4b62-9cdb-2b0ab9b949f7")
+		(property "Reference" "R13"
+			(at 213.36 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 213.36 201.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.042 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "101d50ec-1c82-4e1a-873b-7946d19e67ed")
+		)
+		(pin "2"
+			(uuid "74ae9843-4e2d-4d5e-9269-18920a1ff50d")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R13")
+					(unit 1)
 				)
 			)
 		)
@@ -21976,7 +27960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -22204,6 +28188,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb2ac5d-7641-45a4-b897-d3fc77bf2b34")
+		(property "Reference" "#PWR083"
+			(at 266.7 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 266.7 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "980baa86-6c1d-4bbb-a20e-ecfa7a7e33e9")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce569eda-dcfd-4c31-9c8d-cba218772c8b")
+		(property "Reference" "#PWR061"
+			(at 161.29 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d48dec4-aecc-4da4-bc42-9de52c21fb05")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 250.19 29.21 90)
 		(unit 1)
@@ -22237,7 +28377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -22341,7 +28481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -22390,6 +28530,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 266.7 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0c64665-fef7-4909-ad01-b85fb259974c")
+		(property "Reference" "C14"
+			(at 259.08 271.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 259.08 273.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 267.6652 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50b2ab4d-811e-49e2-b9ba-e1b618b9248f")
+		)
+		(pin "2"
+			(uuid "99b4a6cd-0dd2-498b-99bb-95c89e1f2b1b")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 128.27 97.79 90)
 		(unit 1)
@@ -22423,7 +28644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -22527,7 +28748,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22631,7 +28852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22735,7 +28956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22828,7 +29049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS377"
+		(property "Value" "74HC377"
 			(at 182.4833 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22839,7 +29060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 180.34 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -23053,7 +29274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 115.57 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23177,7 +29398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -23242,6 +29463,84 @@
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d624b93e-80f7-4216-a3e6-7a1994e23eb2")
+		(property "Reference" "#PWR079"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd34ce64-db39-45c0-ac5d-6a76bdc4a05f")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -23360,7 +29659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -23464,7 +29763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -23568,7 +29867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -23750,7 +30049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23933,7 +30232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -24115,7 +30414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -24219,7 +30518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -24323,7 +30622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 223.52 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -24427,7 +30726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -24529,7 +30828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 114.3 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -24563,46 +30862,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e844")
+			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e847")
 		)
 		(pin "12"
-			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab2")
+			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab5")
 		)
 		(pin "1"
-			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5920")
+			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5923")
 		)
 		(pin "14"
-			(uuid "9603b61f-7edd-42c0-a579-567ed8c00693")
+			(uuid "9603b61f-7edd-42c0-a579-567ed8c00696")
 		)
 		(pin "8"
-			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486b")
+			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486e")
 		)
 		(pin "10"
-			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ede")
+			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ee1")
 		)
 		(pin "6"
-			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a7")
+			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111aa")
 		)
 		(pin "5"
-			(uuid "19f8c918-3e21-4539-9b20-89912998fd1b")
+			(uuid "19f8c918-3e21-4539-9b20-89912998fd1e")
 		)
 		(pin "4"
-			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e0")
+			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e3")
 		)
 		(pin "3"
-			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa1")
+			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa4")
 		)
 		(pin "9"
-			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88c")
+			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88f")
 		)
 		(pin "7"
-			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733b")
+			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733e")
 		)
 		(pin "11"
-			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8d")
+			(uuid "fb2f5804-e716-44cb-9e96-408a50729d90")
 		)
 		(pin "2"
-			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39bf")
+			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39c2")
 		)
 		(instances
 			(project "Kicad Files"
@@ -24647,7 +30946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -24751,7 +31050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 128.27 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -24855,7 +31154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -24959,7 +31258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -25063,7 +31362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -25167,7 +31466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -25271,7 +31570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 139.7 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -25305,52 +31604,131 @@
 			)
 		)
 		(pin "13"
-			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e844")
+			(uuid "1ac04972-1207-4dfd-b9a0-d4a9fef0e848")
 		)
 		(pin "12"
-			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab2")
+			(uuid "b4b8497c-884a-4c2f-9570-b8c83c0c5ab6")
 		)
 		(pin "1"
-			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5920")
+			(uuid "e10e592a-baca-4720-9a9b-c35fd60d5924")
 		)
 		(pin "14"
-			(uuid "9603b61f-7edd-42c0-a579-567ed8c00693")
+			(uuid "9603b61f-7edd-42c0-a579-567ed8c00697")
 		)
 		(pin "8"
-			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486b")
+			(uuid "e470555e-4850-4dbd-8987-8dc9ac40486f")
 		)
 		(pin "10"
-			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ede")
+			(uuid "8c3c7abf-71d6-498d-b276-a5ef9e6e2ee2")
 		)
 		(pin "6"
-			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111a7")
+			(uuid "bd417e00-cd48-49e2-8b84-13aaf34111ab")
 		)
 		(pin "5"
-			(uuid "19f8c918-3e21-4539-9b20-89912998fd1b")
+			(uuid "19f8c918-3e21-4539-9b20-89912998fd1f")
 		)
 		(pin "4"
-			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e0")
+			(uuid "8d6fe040-a230-4307-a069-5eb1ca2296e4")
 		)
 		(pin "3"
-			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa1")
+			(uuid "00c03af5-5059-4b2f-b5cc-de81385ccaa5")
 		)
 		(pin "9"
-			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b88c")
+			(uuid "5a7892c3-b5b2-45fb-aace-0e633d63b890")
 		)
 		(pin "7"
-			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733b")
+			(uuid "ebda9c4a-2284-481f-85a7-2d8f407e733f")
 		)
 		(pin "11"
-			(uuid "fb2f5804-e716-44cb-9e96-408a50729d8d")
+			(uuid "fb2f5804-e716-44cb-9e96-408a50729d91")
 		)
 		(pin "2"
-			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39bf")
+			(uuid "19b7e6c6-5448-438c-85df-4bb1fc5a39c3")
 		)
 		(instances
 			(project "Kicad Files"
 				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
 					(reference "U5")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 226.06 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6dc971-158a-446c-9be9-ff526e682f0b")
+		(property "Reference" "#PWR068"
+			(at 229.87 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 222.25 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 226.06 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8cc56ac-bbda-4269-a075-c22c8944658c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "#PWR068")
+					(unit 1)
 				)
 			)
 		)
@@ -25389,7 +31767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25538,6 +31916,181 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef848d4c-9d19-4007-bee6-55e783ee2793")
+		(property "Reference" "R14"
+			(at 218.44 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.44 243.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 214.122 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42f0aff4-1e23-4734-98bb-3c98ca663fa4")
+		)
+		(pin "2"
+			(uuid "30068332-5f7e-40a8-9240-c84f3ce8183c")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc73643-9fae-4391-8fdd-202f032a81d3")
+		(property "Reference" "D116"
+			(at 195.58 247.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 250.5074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 191.77 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa1950bb-3aee-4374-9f84-9b45041c1db0")
+		)
+		(pin "1"
+			(uuid "2d4bd582-dc1e-4473-b0dd-b93a89cf0bad")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 78.74 228.6 180)
 		(unit 1)
@@ -25571,7 +32124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.7748 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -25653,7 +32206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -25835,7 +32388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -25959,7 +32512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -26030,6 +32583,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 273.05 251.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbade16e-df1b-4634-8039-110bd719b96c")
+		(property "Reference" "R15"
+			(at 273.05 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 273.05 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.05 253.238 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba3a95a1-530a-45c7-9309-26723db0fae9")
+		)
+		(pin "1"
+			(uuid "fdf4e064-550e-4f63-bb01-20957d2ced6d")
+		)
+		(instances
+			(project "Kicad Files"
+				(path "/725ec087-9da7-4d35-a9f5-5228a6e3b1e3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 137.16 29.21 90)
 		(unit 1)
@@ -26063,7 +32696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26323,7 +32956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -26405,7 +33038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.83 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -26498,7 +33131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS161"
+		(property "Value" "74HC161"
 			(at 49.1333 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26509,7 +33142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 46.99 50.8 0)
 			(hide yes)
 			(show_name no)
