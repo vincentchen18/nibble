@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 1 | 3.71h | 2 |
+| Week 5 | Tier 1 | 4.21h | 2 |
 
 ## Contents
 
@@ -39,7 +39,7 @@ Next also completed the schematics for the row and opcode decoders, XOR chip, an
 
 ### 2026-11-07: worked more on the schematic, and completed the output LED pins, with 1k resistors, and also completed the jump logic. also, built the clock, which will be set to run 2 ticks per second, for simplicit
 
-**1.63h**
+**2.13h**
 
 worked more on the schematic, and completed the output LED pins, with 1k resistors, and also completed the jump logic. also, built the clock, which will be set to run 2 ticks per second, for simplicity.
 
