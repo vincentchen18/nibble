@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 1 | 6.81h | 3 |
+| Week 5 | Tier 1 | 8.11h | 3 |
 
 ## Contents
 
@@ -60,9 +60,11 @@ also, began arranging the pcb, with placing u1, u2 and the usbc in the top left 
 
 ### 2026-11-08: this session finished the arrangement of u9-10 and started wiring, using a grid for the rows a op/n's. did a matrix wiring, then realised that the right side was really messy,got most of the parts in.
 
-**2.6h**
+**3.9h**
 
-this session finished the arrangement of u9-10 and started wiring, using a grid for the rows a op/n's. did a matrix wiring, then realised that the right side was really messy,got most of the parts in. then, lapse decided to break when i was wiring the rest.
+this session finished the arrangement of u9-10 and started wiring, using a grid for the rows a op/n's. did a matrix wiring, then realised that the right side was really messy,got most of the parts in. then, lapse decided to break when i was wiring the rest. put holes literally everywhere to fix gnd issues. Also, journaled a bit for README writing and looking for BOM parts on LCSC and JLCPCB for quotes.
+
+![Screenshot from 2026-11-08 22-37-18](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/0b11fa2971892056ac6ffa5a9cfa38a61532e9c406168e760ec0cfd1e12e5f3a.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/6f729251-1949-40e1-919c-54c494ea32e7/video.mp4)
 
