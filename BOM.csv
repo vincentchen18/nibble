@@ -1,21 +1,22 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 Custom PCB 100x100mm 2-layer,5,JLCPCB,$0.80,$4.00,https://jlcpcb.com
-TI SN74HC161DR SOIC-16 (C6824),5,LCSC,$0.51,$2.56,https://www.lcsc.com/product-detail/C6824.html
+TI SN74HC161DR SOIC-16 (C6824),5,LCSC,$0.51,$2.55,https://www.lcsc.com/product-detail/C6824.html
 Nexperia 74HC138D SOIC-16 (C5602),5,LCSC,$0.20,$1.00,https://www.lcsc.com/product-detail/C5602.html
-Nexperia 74HC86D SOIC-14 (C5955),5,LCSC,$0.14,$0.71,https://www.lcsc.com/product-detail/C5955.html
+Nexperia 74HC86D SOIC-14 (C5955),5,LCSC,$0.14,$0.70,https://www.lcsc.com/product-detail/C5955.html
 TI CD74HC283M96 SOIC-16 (C543032),1,LCSC,$0.75,$0.75,https://www.lcsc.com/product-detail/C543032.html
 Nexperia 74HC157D SOIC-16 (C5609),5,LCSC,$0.37,$1.85,https://www.lcsc.com/product-detail/C5609.html
 Nexperia 74HC377D SOIC-20W (C5639),5,LCSC,$0.77,$3.85,https://www.lcsc.com/product-detail/C5639.html
 Nexperia 74HC00D SOIC-14 (C5586),5,LCSC,$0.12,$0.60,https://www.lcsc.com/product-detail/C5586.html
 TI NE555DR SOIC-8 (C7593),5,LCSC,$0.11,$0.55,https://www.lcsc.com/product-detail/C7593.html
-1N4148W SOD-123 diode (C81598),50,LCSC,$0.01,$0.60,https://www.lcsc.com/product-detail/C81598.html
-KT-0603R red LED 0603 (C2286),100,LCSC,$0.0077,$0.77,https://www.lcsc.com/product-detail/C2286.html
-10k 0603 resistor (C25804),100,LCSC,$0.0022,$0.22,https://www.lcsc.com/product-detail/C25804.html
-1k 0603 resistor (C21190),100,LCSC,$0.0017,$0.17,https://www.lcsc.com/product-detail/C21190.html
-33k 0603 resistor (C4216),100,LCSC,$0.0021,$0.21,https://www.lcsc.com/product-detail/C4216.html
-5.1k 0603 resistor (C23186),100,LCSC,$0.0016,$0.16,https://www.lcsc.com/product-detail/C23186.html
-100nF 0603 capacitor (C1591),100,LCSC,$0.0072,$0.72,https://www.lcsc.com/product-detail/C1591.html
-10uF 0805 capacitor (C15850),20,LCSC,$0.04,$0.72,https://www.lcsc.com/product-detail/C15850.html
-SHOU HAN TS665CJ 6x6mm tactile switch (C393938),50,LCSC,$0.02,$0.94,https://www.lcsc.com/product-detail/C393938.html
-USB-C 6-pin power-only receptacle (C18357552),5,LCSC,$0.04,$0.22,https://www.lcsc.com/product-detail/C18357552.html
-Estimated total shipping,1,,,$7.60,
+1N4148W SOD-123 diode (C81598),50,LCSC,$0.01,$0.50,https://www.lcsc.com/product-detail/C81598.html
+KT-0603R red LED 0603 (C2286),100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2286.html
+10k 0603 resistor (C25804),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C25804.html
+1k 0603 resistor (C21190),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C21190.html
+33k 0603 resistor (C4216),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C4216.html
+5.1k 0603 resistor (C23186),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C23186.html
+100nF 0603 capacitor (C1591),100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C1591.html
+10uF 0805 capacitor (C15850),20,LCSC,$0.04,$0.80,https://www.lcsc.com/product-detail/C15850.html
+SHOU HAN TS665CJ 6x6mm tactile switch (C393938),50,LCSC,$0.02,$1.00,https://www.lcsc.com/product-detail/C393938.html
+USB-C 6-pin power-only receptacle (C18357552),5,LCSC,$0.04,$0.20,https://www.lcsc.com/product-detail/C18357552.html
+Estimated total shipping,1,,$0.00,$0.00,
+Estimated total shipping,1,,,$0.00,
