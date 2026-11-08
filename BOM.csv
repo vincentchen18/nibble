@@ -1,8 +1,8 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 Custom PCB 100x100mm 2-layer,5,JLCPCB,$0.80,$4.00,https://jlcpcb.com
-TI SN74HC161DR SOIC-16 (C6824),5,LCSC,$0.51,$2.56,https://www.lcsc.com/product-detail/C6824.html
+TI SN74HC161DR SOIC-16 (C6824),5,LCSC,$0.51,$2.55,https://www.lcsc.com/product-detail/C6824.html
 Nexperia 74HC138D SOIC-16 (C5602),5,LCSC,$0.20,$1.00,https://www.lcsc.com/product-detail/C5602.html
-Nexperia 74HC86D SOIC-14 (C5955),5,LCSC,$0.14,$0.71,https://www.lcsc.com/product-detail/C5955.html
+Nexperia 74HC86D SOIC-14 (C5955),5,LCSC,$0.14,$0.70,https://www.lcsc.com/product-detail/C5955.html
 TI CD74HC283M96 SOIC-16 (C543032),1,LCSC,$0.75,$0.75,https://www.lcsc.com/product-detail/C543032.html
 Nexperia 74HC157D SOIC-16 (C5609),5,LCSC,$0.37,$1.85,https://www.lcsc.com/product-detail/C5609.html
 Nexperia 74HC377D SOIC-20W (C5639),5,LCSC,$0.77,$3.85,https://www.lcsc.com/product-detail/C5639.html
@@ -19,3 +19,4 @@ KT-0603R red LED 0603 (C2286) x100 pack,1,LCSC,$0.77,$0.77,https://www.lcsc.com/
 SHOU HAN TS665CJ 6x6mm tactile switch (C393938) x50 pack,1,LCSC,$0.94,$0.94,https://www.lcsc.com/product-detail/C393938.html
 USB-C 6-pin power-only receptacle (C18357552) x5 pack,1,LCSC,$0.22,$0.22,https://www.lcsc.com/product-detail/C18357552.html
 Estimated total shipping,1,,$7.60,$7.60,
+Estimated total shipping,1,,,$0.00,
