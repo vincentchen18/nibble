@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 1 | 6.73h | 3 |
+| Week 5 | Tier 1 | 6.81h | 3 |
 
 ## Contents
 
@@ -60,8 +60,10 @@ also, began arranging the pcb, with placing u1, u2 and the usbc in the top left 
 
 ### 2026-11-08: this session finished the arrangement of u9-10 and started wiring, using a grid for the rows a op/n's. did a matrix wiring, then realised that the right side was really messy,got most of the parts in.
 
-**2.52h**
+**2.6h**
 
 this session finished the arrangement of u9-10 and started wiring, using a grid for the rows a op/n's. did a matrix wiring, then realised that the right side was really messy,got most of the parts in. then, lapse decided to break when i was wiring the rest.
 
 [Timelapse](https://lookout.hackclub.com/api/media/6f729251-1949-40e1-919c-54c494ea32e7/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/20667c25-9d6c-4d9c-839c-3e568910ee4a/video.mp4)
