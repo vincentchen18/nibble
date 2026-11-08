@@ -1,9 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-TI NE555DR SOIC-8 (C7593),5,LCSC,$0.11,$0.55,https://www.lcsc.com/product-detail/C7593.html
-1N4148W SOD-123 diode (C81598),50,LCSC,$0.01,$0.50,https://www.lcsc.com/product-detail/C81598.html
-KT-0603R red LED 0603 (C2286),100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2286.html
-10k 0603 resistor (C25804),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C25804.html
-1k 0603 resistor (C21190),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C21190.html
 33k 0603 resistor (C4216),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C4216.html
 5.1k 0603 resistor (C23186),100,LCSC,$0.00,$0.00,https://www.lcsc.com/product-detail/C23186.html
 100nF 0603 capacitor (C1591),100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C1591.html
